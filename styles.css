@@ -1,27 +1,35 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #1f95c2;
 }
 .first-title {
   color: #FEF2BF
 }
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+
+  font-size: 1.5rem;
   margin:  5%;
   color: #FEF2BF;
 }
-
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
+.inst {
+  text-align: left;
+font-size: 0.7rem;
+  color: #FEF2BF;
 
 }
-
+.container {
+  text-align: center;
+  display: block;
+  width: 35%;
+  margin: auto;
+}
+.row {
+text-align: center;
+}
 .btn {
-  margin: 25px;
-  display: inline-block;
+  margin: 25px auto;
+  /* display: inline-block; */
   height: 200px;
   width: 200px;
   border: 10px solid black;
